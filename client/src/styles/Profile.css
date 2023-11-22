@@ -1,0 +1,32 @@
+
+h1{
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.ant-form{
+    font-size:20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+
+.ant-row{
+    font-size: 29px;
+}
+.ant-input{
+    font-size: 22px;
+}
+.ant-form-item-label>label{
+     font-size: 25px;
+}
+.ant-picker-input>input {
+    font-size: 25px;
+}
+
+
+
