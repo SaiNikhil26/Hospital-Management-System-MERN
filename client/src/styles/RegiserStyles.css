@@ -1,4 +1,4 @@
-.form-container {
+/* .form-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8,4 +8,22 @@
 .register-form {
   border: 1px solid gray;
   padding: 30px;
+}
+.text-headingColor{
+  color: black;
+  font-size: 22px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.welcome-back{
+  font-size: 42px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
+
+.text-black{
+  font-size: 20px;
+}
+
+.create-account{
+  font-size: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

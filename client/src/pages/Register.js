@@ -52,7 +52,7 @@ const Register = () => {
                     </div>
 
                     <div className='rounded-l-lg lg:pl-16 py-10'>
-                        <h3 className='text-black text-[22px] leading-9 font-bold mb-10'>
+                        <h3 className='text-black text-[22px] leading-9 font-bold mb-10 create-account'>
                             Create an <span className='text-primaryColor'>account</span></h3>
 
                             <Form onFinish={onfinishHandler} layout="vertical">

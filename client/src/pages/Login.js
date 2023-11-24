@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/RegiserStyles.css";
+import "../styles/LoginStyles.css";
 import { Form, Input, message } from "antd";
 import { useDispatch } from "react-redux";
 import { showLoading, hideLoading } from "../redux/features/alertSlice";
@@ -45,7 +45,7 @@ const Login = () => {
     </header>
    <section className='px-5 lg:px-0'>
             <div className='w-full max-w-[570px] mx-auto rounded-lg shadow-md md:p-10'>
-                <h3 className='text-black text-[22px] leading-9 font-bold mb-10'>
+                <h3 className='text-black text-[22px] leading-9 font-bold mb-10 welcome-back2'>
                     Hello! <span className='text-primaryColor'>Welcome</span> Back
                 </h3>
                 <Form className='py-4 md:py-0' layout="vertical" onFinish={onfinishHandler}>
