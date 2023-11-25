@@ -4,7 +4,13 @@
     justify-content: center;
     height: 100vh;
   }
+  .body-page{
+    background-color: rgb(15 23 42 );
+    -webkit-box-shadow:0px 0px 86px 39px rgba(217,46,255,0.78);
+    -moz-box-shadow: 0px 0px 86px 39px rgba(217,46,255,0.78);
+    box-shadow: 0px 0px 86px 39px rgba(217,46,255,0.78);
   
+  }
   .register-form {
     border: 1px solid gray;
     padding: 30px;

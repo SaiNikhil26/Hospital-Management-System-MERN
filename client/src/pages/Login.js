@@ -34,8 +34,8 @@ const Login = () => {
   return (
     <>
     <header className='header flex items-center'>
-        <div className='container'>
-            <div className='flex items-center justify-between'>
+        <div className='container '>
+            <div className='flex items-center justify-between '>
                 {/* -------logo--------- */}
                 <div>
                     <img src={logo} alt="" />
@@ -43,9 +43,9 @@ const Login = () => {
             </div>
       </div>
     </header>
-   <section className='px-5 lg:px-0'>
-            <div className='w-full max-w-[570px] mx-auto rounded-lg shadow-md md:p-10'>
-                <h3 className='text-black text-[22px] leading-9 font-bold mb-10 welcome-back2'>
+   <section className='px-5 lg:px-0  bg-black'>
+            <div className='w-full max-w-[570px] mx-auto rounded-lg shadow-md md:p-10 body-page'>
+                <h3 className='text-primaryColor text-[22px] leading-9 font-bold mb-10 welcome-back2'>
                     Hello! <span className='text-primaryColor'>Welcome</span> Back
                 </h3>
                 <Form className='py-4 md:py-0' layout="vertical" onFinish={onfinishHandler}>
@@ -67,12 +67,12 @@ const Login = () => {
                     </div>
 
                     <div className="mt-7">
-                        <button className="w-full bg-primaryColor text-white text-[18px] leading-[30px] rounded-lg px-4 py-3" type="submit">Login</button>
+                        <button className="w-full bg-primaryColor text-white text-[25px] leading-[30px] rounded-lg px-4 py-3" type="submit">Login</button>
                     </div>
 
 
-                    <p className="mt-5 text-black text-center">Don&apos;t have an account?
-                    <Link to='/register' className="text-primaryColor font-medium">Register</Link>
+                    <p className="mt-5 text-primaryColor text-center text-[20px]">Don&apos;t have an account?
+                    <Link to='/register' className="text-primaryColor font-medium text-[20px]">Register</Link>
                     </p>
                 </Form>
             </div>

@@ -42,8 +42,8 @@ const Register = () => {
             </div>
       </div>
     </header>
-<section className='px-5 xl:px-0'>
-            <div className='max-w-[1170px] mx-auto'>
+<section className='px-5 xl:px-0 bg-black'>
+            <div className='max-w-[1170px] mx-auto body-page'>
                 <div className='grid grid-cols-2 lg:grid-cols-2'>
                     <div className='hidden lg:block bg-primaryColor rounded-l-lg'>
                         <figure className='rounded-l-lg'>
@@ -52,22 +52,22 @@ const Register = () => {
                     </div>
 
                     <div className='rounded-l-lg lg:pl-16 py-10'>
-                        <h3 className='text-black text-[22px] leading-9 font-bold mb-10 create-account'>
+                        <h3 className='text-primaryColor text-[22px] leading-9 font-bold mb-10 create-account'>
                             Create an <span className='text-primaryColor'>account</span></h3>
 
                             <Form onFinish={onfinishHandler} layout="vertical">
                     <div className='mb-5'>
 		<Form.Item name="name">
                         <input type="text" placeholder='Full Name' name='fname'
-                        className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61]
+                        className="pr-4 py-3 border-b border-solid border-[#0066ff61]
                         focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 text-black
-                        placeholder:text-black rounded-md cursor-pointer" required/>
+                        placeholder:text-black rounded-md cursor-pointer w-96" required/>
           </Form.Item>
                     </div>
                     <div className='mb-5'>
 		<Form.Item name="email">
                         <input type="email" placeholder='Email' name='email'
-                        className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61]
+                        className="w-96 pr-4 py-3 border-b border-solid border-[#0066ff61]
                         focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 text-black
                         placeholder:text-black rounded-md cursor-pointer" required/>
           </Form.Item>
@@ -75,18 +75,18 @@ const Register = () => {
                     <div className='mb-5'>
           <Form.Item name="password">
                         <input type="password" placeholder='Password' name='password'
-                        className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61]
+                        className="w-96 pr-4 py-3 border-b border-solid border-[#0066ff61]
                         focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 text-black
                         placeholder:text-black rounded-md cursor-pointer" required/>
           </Form.Item>
                     </div>
 
                     <div className="mt-7">
-                        <button className="w-full bg-primaryColor text-white text-[18px] leading-[30px] rounded-lg px-4 py-3" type="submit">Sign Up</button>
+                        <button className="w-96 bg-primaryColor text-white text-[25px] leading-[30px] rounded-lg px-4 py-3" type="submit">Sign Up</button>
                     </div>
 
 
-                    <p className="mt-5 text-black text-center">Already have an account?
+                    <p className="mt-5 text-center text-[25px] text-primaryColor">Already have an account?
                     <Link to='/login' className="text-primaryColor font-medium">Login</Link></p>
                             </Form>
                     </div>
